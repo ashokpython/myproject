@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block content %}
+	<div class="row">
+		<div class="col-sm-3">
+			<div>{{ output|safe }}</div>
+		</div>
+		<div class="col-sm-3">
+			<div id="myFirstchart-container1">{{ output1|safe }}</div>
+		</div>
+	</div>
+{% endblock %}
